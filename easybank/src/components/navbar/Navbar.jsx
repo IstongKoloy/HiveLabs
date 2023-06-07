@@ -1,14 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './navbar.css';
 import Logo from '../../assets/svg/Logo.svg'
 
 const Navbar = () => {
-  const [burger, setBurger] = useState(false);
-
-  const toggleBurger = () => {
-    setBurger(!burger);
-  }
-
   return (
     <div className='navbar'>
       <div className='navbar-brand'>
