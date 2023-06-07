@@ -1,0 +1,48 @@
+.whychoose {
+    /* margin-top: 5rem; */
+    background-color: var(--lightGrayishBlue);
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 5.5rem 10rem;
+}
+
+.whychoose-header {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.whychoose-header h1 {
+    font-weight: 400;
+    color: var(--darkBlue);
+}
+
+.whychoose-header p {
+    color: var(--grayishBlue);
+    line-height: 1.5rem;
+}
+
+.whychoose-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.whychoose-benefits {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.benefits-title span {
+    color: var(--darkBlue);
+    font-size: 1.5rem;
+}
+
+.benefits-desc {
+    text-align: justify;
+    line-height: 1.75rem;
+    color: var(--grayishBlue);
+}

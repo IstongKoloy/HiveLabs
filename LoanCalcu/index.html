@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Loan Calculator</h1>
+    <h6 style="text-align: center; margin-bottom: 20px;" title="LinkedIn"><a href="https://www.linkedin.com/in/glenn-andaleon-47a63724a/" target="_blank" ><strong>By: </strong>Glenn H. Andaleon</a></h6>
+    <div class="container">
+        
+        <div class="auto">
+            <h3>Auto Calculate</h3>
+            <p class="auto-labels">Loan Amount: ₱100,000.00</p>
+            <p>Loan Term: 12 months</p>
+            <p>Annual Interest Rate: 3.5%</p>
+            <p id="monthlyInstallment"></p>
+        </div>
+        <div class="calcu">
+            <form id="formContainer">
+                <h3>Manual Calculate</h3>
+                <label for="loan">
+                    <input type="text" id="loan" placeholder="Loan Amount" required>
+                    <span>Loan Amount</span>
+                </label>
+                <label for="pay">
+                    <input type="number" id="pay" placeholder="Months to pay">
+                    <span>Months to pay</span>
+                </label>
+                <label for="rate">
+                    <input type="text" id="rate" placeholder="Interest">
+                    <span>Interest rate</span>
+                </label>
+                <button type="button" id="calc">Calculate</button>
+            </form>
+        </div>
+    </div>
+    
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
